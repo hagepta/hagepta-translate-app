@@ -1,0 +1,4 @@
+streamlit
+google-cloud-translate
+google-cloud-core
+google-auth

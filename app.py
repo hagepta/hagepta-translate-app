@@ -161,11 +161,11 @@ def translate_text(text, target_language):
 
 def main():
     """Main function to run the Streamlit app."""
-    st.title("Hage PTA Communication Translator :globe_with_meridians:")
-    st.write("Translate school flyers or communications for parents.")
-    st.write("Traducir volantes escolares o comunicaciones para padres.")
-    st.write("Dịch tờ rơi hoặc thông báo của trường cho phụ huynh.")
-    st.write("Isalin ang mga flyer ng paaralan o komunikasyon para sa mga magulang.")
+    st.title("Hage PTA  Translator :globe_with_meridians:")
+    st.write("Translate school communications.")
+    st.write("Traducir folletos o comunicaciones escolares.")
+    st.write("Dịch tờ rơi hoặc thông tin liên lạc của trường.")
+    st.write("Isalin ang mga flyer ng paaralan o komunikasyon.")
 
     # Text area for the user to input the original text
     original_text = st.text_area(
