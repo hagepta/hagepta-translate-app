@@ -12,9 +12,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expose the port that Streamlit will run on
-EXPOSE 8501
+EXPOSE 8080
 
 # Define the command to run the Streamlit app
-# The '--server.port' and '--server.address' are crucial for Cloud Run
-CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
-
+# --server.port and --server.address are CRUCIAL for Cloud Run
+CMD ["streamlit", "run", "app.py", "--server.port=8080", "--server.address=0.0.0.0"]
